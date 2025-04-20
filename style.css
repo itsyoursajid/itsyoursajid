@@ -1,107 +1,106 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #000000;
-  }
-  
-  nav {
-    background: #1f1f1f;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  nav h2 {
-    font-weight: 600;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #00bcd4;
-  }
-  
-  .hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(to right, #00bcd4, #3f51b5);
-    color: white;
-  }
-  
-  section {
-    padding: 60px 20px;
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  h2 {
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-    color: #3f51b5;
-  }
-  
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skills li {
-    background: #ddd;
-    padding: 10px 20px;
-    border-radius: 30px;
-    font-weight: bold;
-  }
-  
-  .card-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-  }
-  
-  .card {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    flex: 1 1 300px;
-  }
-  
-  .card h3 {
-    color: #222;
-    margin-bottom: 10px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1f1f1f;
-    color: white;
-    font-size: 0.9rem;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background: #1f1f1f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav h2 {
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #00bcd4, #3f51b5);
+  color: white;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #3f51b5;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #ddd;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+}
+
+.card h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1f1f1f;
+  color: white;
+  font-size: 0.9rem;
+}
